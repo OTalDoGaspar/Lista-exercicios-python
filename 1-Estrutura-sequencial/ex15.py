@@ -19,6 +19,10 @@ gh = float(input())
 nh = float(input())
 
 s = gh * nh
-
-
-
+print(s)
+ir = s * 0.11
+print(ir)
+inss = s * 0.08
+sind = s * 0.05
+print(sind)
+print(s - ir - sind - inss)
