@@ -4,6 +4,6 @@ import math
 
 r = float(input())
 
-area = round(math.py, 2) * (r**2)
+area = round(math.pi, 2) * (r**2)
 
 print(area)
