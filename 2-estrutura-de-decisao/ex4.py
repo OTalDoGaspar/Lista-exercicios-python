@@ -4,7 +4,7 @@ import string
 
 vogais = "aeiou"
 print(string.ascii_lowercase)
-l = input()
+l = input().lower()
 
 if (l in vogais):
     print("Vogal")

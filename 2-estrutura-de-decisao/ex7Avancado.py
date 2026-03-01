@@ -1,4 +1,4 @@
-#Faça um programa que leia três números e mostre o maior deles:
+# Faça um programa que leia três números e mostre o maior e o menor deles:
 
 #Solução mais otimizada com conceitos mais avançados...
 
