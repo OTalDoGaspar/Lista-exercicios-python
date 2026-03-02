@@ -4,12 +4,13 @@
 # M - Masculino
 # Sexo Inválido.
 
-sexo = input()
+sexo = input().upper()
 
-if (sexo == "M"):
-    print("Masculino")
-elif (sexo == "F"):
-    print("Feminino")
-else:
-    print("Sexo inválido")
+match sexo:
+    case "M":
+        print("Masculino")
+    case "F":
+        print("Feminino")
+    case _:
+        print("Sexo Inválido!")
     

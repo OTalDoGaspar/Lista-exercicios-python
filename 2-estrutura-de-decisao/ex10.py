@@ -4,13 +4,14 @@
 #     N - Noturno.
 # Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso
 
-l = input().lower()
+l = input().upper()
 
-if (l ==  "M"):
-    print("Bom Dia!")
-elif (l == "V"):
-    print("Boa Tarde!")
-elif (l == "N"):
-    print("Boa Noite!")
-else:
-    print("Valor Inválido!")
+match l:
+    case "M":
+        print("Bom Dia!")
+    case "V":
+        print("Boa Tarde!")
+    case "N":
+        print("Boa Noite!")
+    case _:
+        print("Valor inválido!")
