@@ -23,6 +23,7 @@ elif (salario > 700 and salario <= 1500):
     percentualReajuste = 0.10
 else:
     percentualReajuste = 0.05
+    
 reajuste = salario*percentualReajuste
 nSalario = salario + reajuste
 

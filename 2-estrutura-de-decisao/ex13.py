@@ -17,3 +17,5 @@ match n:
         print("Sexta")
     case 7:
         print("Sábado")
+    case _:
+        print("Valor inválido")
