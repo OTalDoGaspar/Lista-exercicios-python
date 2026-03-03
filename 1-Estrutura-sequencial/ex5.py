@@ -2,4 +2,4 @@
 
 m = float(input())
 
-print(m*100)
+print(m*100)# 1 metro = 100 centímetros

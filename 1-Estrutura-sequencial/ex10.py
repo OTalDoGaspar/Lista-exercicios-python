@@ -3,6 +3,6 @@
 
 c = float(input())
 
-f = (c * 9/5) + 32
+f = (c * 9/5) + 32#Temperatura em fahrenheit = [(Temepratura em celsius *)]
 
 print(f)
